@@ -14,12 +14,11 @@
 ```
 lib/
   main.dart
-  data/countries_data.dart        # banco de dados (código, continente, nomes pt/en/es)
-  models/country.dart
-  l10n/strings.dart               # traduções
-  services/app_settings.dart      # idioma, tempo, dificuldade (persistidos)
-  services/leaderboard_service.dart
-  screens/ home, continent, game, result, leaderboard
-  widgets/menu_button.dart
+  data/dados_paises.dart        # banco de dados
+  models/paises.dart
+  l10n/textos.dart               # traduções
+  services/configuracoes.dart      # tempo, dificuldade 
+  screens/ inicial, continentes, jogo, resultados
+  widgets/botao_menu.dart
 ```
 
