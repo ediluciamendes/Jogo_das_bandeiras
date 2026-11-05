@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'screens/home_screen.dart';
-import 'services/app_settings.dart';
+import 'screens/tela_inicial.dart';
+import 'services/configuracoes.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -21,8 +21,8 @@ class FlagGameApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
           useMaterial3: true,
-          colorScheme: ColorScheme.fromSeed(
-              seedColor: const Color.fromARGB(246, 74, 197, 228)),
+          colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFFBBE2F1)),
+          scaffoldBackgroundColor: const Color(0xFFFEFEFE), // cor de fundo
         ),
         home: const HomeScreen(),
       ),
